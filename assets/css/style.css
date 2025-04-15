@@ -43,7 +43,7 @@
 .hamburger {
     display: none;
     font-size: 28px;
-    color: white;
+    color: #2A4899;
     cursor: pointer;
 }
 
@@ -52,7 +52,7 @@
 @media (max-width: 768px) {
     .nav-menu ul {
         flex-direction: column;
-        background-color: #005f73;
+        background-color: #95C11F;
         position: absolute;
         top: 70px;
         right: 20px;

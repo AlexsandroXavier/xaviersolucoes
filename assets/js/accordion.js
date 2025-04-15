@@ -36,23 +36,4 @@ accordions.forEach(acc => {
   });
 });
 
-// Integração com EmailJS
 
-// Substitua com suas próprias IDs do EmailJS
-const serviceID = "seu_service_id";
-const templateID = "seu_template_id";
-const userID = "seu_user_id"; // Ou use `publicKey` se for nova conta
-
-emailjs.init(userID); // Inicializa o EmailJS
-
-document.getElementById('contato-form').addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      alert("Mensagem enviada com sucesso!");
-      this.reset();
-    }, (err) => {
-      alert("Erro ao enviar mensagem.\n" + JSON.stringify(err));
-    });
-});
