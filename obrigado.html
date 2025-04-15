@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrigado | Xavier Soluções</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/obrigado.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo-xavier.png" alt="Logo Xavier Consultoria">
+            </div>
+  
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+  
+        <div class="hamburger" id="hamburger">
+      </div>
+    </div>
+    </header>
+
+  <!-- Vitrine -->
+  <section class="vitrine" id="inicio">
+    <div class="vitrine-container">
+      <!-- Lado esquerdo: Logo -->
+      <div class="vitrine-logo">
+        <img src="assets/images/logo-xavier.png" alt="Logo Xavier Consultoria">
+      </div>
+  
+      <!-- Lado direito: Textos -->
+      <div class="vitrine-texto">
+        <h1> XAVIER SOLUÇÕES</h1>
+        <h2> ENGENHARIA SSMA</h2>
+        <p> ENGENHARIA AMBIENTAL E SEGURANÇA DO TRABALHO</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mensagem de Obrigado -->
+  <section class="mensagem-obrigado">
+    <h2>Obrigado pelo contato!</h2>
+    <p>Entraremos em contato em breve.</p>
+  </section>
+
+  <!-- Contato (reutilizado) -->
+  <section id="contato" class="contato-section">
+    <div class="container-contato">
+      <!-- Coluna 1 - Informações de contato -->
+      <div iv class="info-contato">
+        <h2>Entre em Contato</h2>
+        <ul>
+          <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/SEUNUMERO" target="_blank">(75) 98123-4567</a></li>
+          <li><i class="far fa-envelope"></i> <a href="mailto:seuemail@dominio.com">xaviersolucoesengenhariassma@gmail.com</a></li>
+          <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/engalexsandroxavier/" target="_blank">LinkedIn</a></li>
+          <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/allexavier93/" target="_blank">@allexavier93</a></li>
+        </ul>
+
+        <!-- Mapa abaixo dos contatos -->
+        <div class="mapa-local">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4638.430774041462!2d-38.4224168981422!3d-12.15043198186608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716bdca02202f47%3A0xbe1e29f0745f5034!2sAv.%20Juracy%20Magalh%C3%A3es%2C%201080%20-%20Juracy%20Magalhaes%2C%20Alagoinhas%20-%20BA%2C%2048005-400!5e0!3m2!1spt-BR!2sbr!4v1744717783280!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="250"
+            style="border:0; border-radius: 12px; margin-top: 20px;" 
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+    </div>
+    <!-- Coluna 2 - Formulário com FormSubmit -->
+    <div class="formulario-contato">
+      <form action="https://formsubmit.co/xaviersolucoesengenhariassma@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+  
+        <div class="campo">
+          <label><i class="fa fa-user"></i> Nome</label>
+          <input type="text" name="first_name" required placeholder="Digite seu nome">
+        </div>
+  
+        <div class="campo">
+          <label><i class="fa fa-user"></i> Sobrenome</label>
+          <input type="text" name="last_name" required placeholder="Digite seu sobrenome">
+        </div>
+  
+        <div class="campo">
+          <label><i class="fa fa-envelope"></i> E-mail</label>
+          <input type="email" name="email" required placeholder="Digite seu e-mail">
+        </div>
+  
+        <div class="campo">
+          <label><i class="fa fa-comment"></i> Mensagem</label>
+          <textarea name="message" required placeholder="Escreva sua mensagem..."></textarea>
+        </div>
+  
+        <button type="submit" class="botao-enviar"><i class="fa fa-paper-plane"></i> Enviar</button>
+      </form>
+    </div>
+  </section>
+</html>
