@@ -1,4 +1,9 @@
 /* Estilo base */
+
+body {
+    margin: 0px;
+
+}
 .main-header {
     background: linear-gradient(to right, #e0f2f1, #ffffff);
     padding: 15px 20px;
